@@ -1,0 +1,15 @@
+# Dataset
+dataset/wood_dataset/
+
+# Python / Jupyter temporary files
+__pycache__/
+.ipynb_checkpoints/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
