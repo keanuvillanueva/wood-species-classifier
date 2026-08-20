@@ -1,4 +1,4 @@
-\# Wood Species Classifier
+# Wood Species Classifier
 
 
 
@@ -8,7 +8,7 @@ wood species from wood micrograph images.
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -24,25 +24,25 @@ The final model achieved an F1 score of 88.43% on the test dataset.
 
 
 
-\## Model Architecture
+## Model Architecture
 
 
 
-\- VGG16 pretrained on ImageNet
+- VGG16 pretrained on ImageNet
 
-\- Global Average Pooling
+- Global Average Pooling
 
-\- Fully connected classification layers
+- Fully connected classification layers
 
-\- Batch Normalization
+- Batch Normalization
 
-\- Dropout
+- Dropout
 
-\- Fine-tuning of the later VGG16 layers
+- Fine-tuning of the later VGG16 layers
 
 
 
-\## Dataset
+## Dataset
 
 
 
@@ -70,7 +70,7 @@ with one subdirectory per wood species.
 
 
 
-\## Results
+## Results
 
 
 
@@ -86,15 +86,15 @@ with one subdirectory per wood species.
 
 
 
-\## Files
+## Files
 
 
 
-\- `Wood\_Classifier.ipynb` — Jupyter notebook containing the model development,
+- `Wood\_Classifier.ipynb` — Jupyter notebook containing the model development,
 
 &#x20; training, evaluation, and visualization.
 
-\- `models/wood\_classifier\_final.tflite` — TensorFlow Lite version of the
+- `models/wood\_classifier\_final.tflite` — TensorFlow Lite version of the
 
 &#x20; trained model.
 
